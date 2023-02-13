@@ -69,11 +69,11 @@ productos.addProduct("title1", "description1", 755, "image1", "1", 5);
 productos.addProduct("title2", "description2", 165, "image2", "2", 12);
 productos.addProduct("title3", "description3", 150, "image3", "3", 24);
 
-// productos.getProducts();
+productos.getProducts();
 
-// productos.getProductsById(1)
+productos.getProductsById(1)
 
-// productos.deleteProductById(2)
+productos.deleteProductById(2)
 
 productos.updateProducts({
     title: 'title3',
